@@ -8,3 +8,6 @@ env: requirements.txt
 
 console: env
 	bash --rcfile $</bin/activate; exit
+
+syncdb: env
+	. $</bin/activate; python app.py syncdb

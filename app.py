@@ -2,9 +2,8 @@ import os
 import sys
 
 from django.conf import settings
-from django.conf.urls import patterns
+from django.conf.urls import include, patterns
 from django.core.management import execute_from_command_line
-from django.conf.urls import include
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 BASE_PATH = os.path.dirname(__file__)
